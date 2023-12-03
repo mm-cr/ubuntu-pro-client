@@ -387,7 +387,7 @@ AUTO_ATTACH_RETRY_NOTICE = t.gettext(
 Failed to automatically attach to an Ubuntu Pro subscription {num_attempts} time(s).
 The failure was due to: {reason}.
 The next attempt is scheduled for {next_run_datestring}.
-You can try manually with `sudo pro auto-attach`."""
+You can try manually with `sudo pro auto-attach`."""  # noqa: E501
 )
 
 AUTO_ATTACH_RETRY_TOTAL_FAILURE_NOTICE = t.gettext(
